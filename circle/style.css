@@ -1,0 +1,20 @@
+body{
+    padding: 50px;
+}
+
+.loader{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    border: 5px solid greenyellow;
+    border-top-color: red;
+    animation: rotate 1s infinite;
+}
+
+@keyframes rotate{
+    100%{
+        rotate: 360deg;
+    }
+}
+
